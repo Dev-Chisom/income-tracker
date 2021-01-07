@@ -1,7 +1,7 @@
 <template>
   <header>
     <h1>Income Tracker</h1>
-    <div class="total-income">${{ totalIncome }}</div>
+    <div class="total-income">£{{ totalIncome }}</div>
   </header>
 </template>
 
@@ -20,14 +20,17 @@ header {
   align-items: center;
   padding: 15px 30px;
   background-color: #313131;
-  border-bottom: 5px solid #ff0040;
+  border-bottom: 5px solid #ffce00;
 }
+
 header h1 {
   color: #eee;
-  font-style: 20px;
+  font-size: 28px;
 }
+
 header .total-income {
-  background-color: #ff0040;
+  font-family: 'Fira Code', 'Fira Sans', sans-serif;
+  background-color: #ffce00;
   color: #fff;
   font-size: 20px;
   font-weight: 900;
